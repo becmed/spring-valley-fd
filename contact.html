@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Spring Valley Fire Department</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
 
+  <nav>
+    <div class="nav-logo"><span>🔥 Spring Valley FD</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="endorsements.html">Endorsements</a></li>
+      <li><a href="apply.html">Apply Now</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="page-hero" style="padding-top: 70px;">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <h1>Contact <span>Us</span></h1>
+  </div>
+
+  <section style="background: #0f0f0f;">
+    <div class="contact-layout">
+
+      <div>
+        <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+          <span class="section-label">Get in Touch</span>
+          <h2>We'd Love to <span>Hear From You</span></h2>
+          <div class="section-divider" style="margin: 1rem 0 0;"></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-text">
+            <strong>Address</strong>
+            <span>Spring Valley, NY</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-text">
+            <strong>Phone</strong>
+            <span>(000) 000-0000</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-text">
+            <strong>Email</strong>
+            <span>info@springvalleyfd.org</span>
+          </div>
+        </div>
+      </div>
+
+      <form data-form-type="contact">
+        <div class="form-container" style="border: none; background: transparent; padding: 0;">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 <span>Spring Valley Fire Department</span>. All rights reserved. | Serving our community with pride.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
